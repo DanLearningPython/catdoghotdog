@@ -1,7 +1,7 @@
-import cv2                 
-import numpy as np         
-import os                 
-from random import shuffle   
+import cv2
+import numpy as np
+import os
+from random import shuffle
 import tensorflow as tf
 import tflearn
 from tflearn.layers.conv import conv_2d, max_pool_2d
@@ -10,7 +10,7 @@ from tflearn.layers.estimator import regression
 import logging
 
 np.set_printoptions(suppress=True)
-#logging.basicConfig(filename='general.log',level=logging.DEBUG)
+logging.basicConfig(filename='general.log',level=logging.DEBUG)
 
 class CatDogHotDog:
 
@@ -64,7 +64,6 @@ class CatDogHotDog:
         model.load(MODEL_NAME)
 
         testing_data = []
-        path = '56.jpg'
         img_num = 1;
 
         testing_data = self.process_test_data(predict_image)
@@ -79,13 +78,13 @@ class CatDogHotDog:
             model_out = model.predict([data])[0]
             predictions.insert(num, model_out)
 
-                
+
         if np.argmax(model_out) == 1: str_label='dog'
         elif np.argmax(model_out) == 0: str_label='cat'
         else: str_label='hotdog'
 
         logging.info(predictions)
-        
+
         response = {}
         response['label'] = str_label
         response['weights'] = {}
