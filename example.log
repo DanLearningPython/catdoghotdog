@@ -1,0 +1,90 @@
+INFO:root:classify/uploads/IMG_2747_g753EQ7.JPG
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.9999975 ,  0.00000004,  0.00000248], dtype=float32)]
+INFO:root:{'label': 'Cat', 'weights': {'cat': '0.999997', 'dog': '3.74357e-08', 'hotdog': '2.47573e-06'}}
+INFO:root:classify/uploads/IMG_2747_iGkiWGe.JPG
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.9999975 ,  0.00000004,  0.00000248], dtype=float32)]
+INFO:root:{'label': 'Cat', 'weights': {'cat': '0.999997', 'dog': '3.74357e-08', 'hotdog': '2.47573e-06'}}
+INFO:root:classify/uploads/IMG_2747_3TsUEpQ.JPG
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.9999975 ,  0.00000004,  0.00000248], dtype=float32)]
+INFO:root:{'label': 'Cat', 'weights': {'cat': '0.999997', 'dog': '3.74357e-08', 'hotdog': '2.47573e-06'}}
+INFO:root:classify/uploads/IMG_2747_hTGjOmW.JPG
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.9999975 ,  0.00000004,  0.00000248], dtype=float32)]
+INFO:root:{'label': 'Cat', 'weights': {'cat': '0.999997', 'dog': '3.74357e-08', 'hotdog': '2.47573e-06'}}
+INFO:root:classify/uploads/IMG_3576.JPG
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.99998808,  0.00000148,  0.00001054], dtype=float32)]
+INFO:root:{'label': 'Cat', 'weights': {'cat': '0.999988', 'dog': '1.47713e-06', 'hotdog': '1.05393e-05'}}
+INFO:root:classify/uploads/IMG_3576_klVuyyt.JPG
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.99998808,  0.00000148,  0.00001054], dtype=float32)]
+INFO:root:{'label': 'cat', 'weights': {'cat': '0.999988', 'dog': '1.47713e-06', 'hotdog': '1.05393e-05'}}
+INFO:root:classify/uploads/IMG_3576_B2xBadA.JPG
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.99998808,  0.00000148,  0.00001054], dtype=float32)]
+INFO:root:{'label': 'cat', 'weights': {'cat': '0.999988', 'dog': '1.47713e-06', 'hotdog': '1.05393e-05'}}
+INFO:root:classify/uploads/IMG_3576_owSKJ3k.JPG
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.99998808,  0.00000148,  0.00001054], dtype=float32)]
+INFO:root:{'label': 'cat', 'weights': {'cat': '0.999988', 'dog': '1.47713e-06', 'hotdog': '1.05393e-05'}}
+INFO:root:classify/uploads/IMG_3576_R9Y3n0Z.JPG
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.99998808,  0.00000148,  0.00001054], dtype=float32)]
+INFO:root:{'label': 'cat', 'weights': {'cat': '0.999988', 'dog': '1.47713e-06', 'hotdog': '1.05393e-05'}}
+INFO:root:classify/uploads/IMG_3576_8Ktr2qe.JPG
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.99998808,  0.00000148,  0.00001054], dtype=float32)]
+INFO:root:{'label': 'cat', 'weights': {'cat': '0.999988', 'dog': '1.47713e-06', 'hotdog': '1.05393e-05'}}
+INFO:root:classify/uploads/IMG_3576_irzVTUx.JPG
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.99998808,  0.00000148,  0.00001054], dtype=float32)]
+INFO:root:{'label': 'cat', 'weights': {'cat': '0.999988', 'dog': '1.47713e-06', 'hotdog': '1.05393e-05'}}
+INFO:root:classify/uploads/IMG_3576_zuljnXD.JPG
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.99998808,  0.00000148,  0.00001054], dtype=float32)]
+INFO:root:{'label': 'cat', 'weights': {'cat': '0.999988', 'dog': '1.47713e-06', 'hotdog': '1.05393e-05'}}
+INFO:root:classify/uploads/golden_icon.jpg
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.0000777 ,  0.99991691,  0.00000542], dtype=float32)]
+INFO:root:{'label': 'dog', 'weights': {'cat': '7.76991e-05', 'dog': '0.999917', 'hotdog': '5.41698e-06'}}
+INFO:root:classify/uploads/fluffy_icon.jpg
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.99999881,  0.00000001,  0.00000121], dtype=float32)]
+INFO:root:{'label': 'cat', 'weights': {'cat': '0.999999', 'dog': '5.88431e-09', 'hotdog': '1.2132e-06'}}
+INFO:root:classify/uploads/hotdog.jpg
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.00000052,  0.00000088,  0.99999857], dtype=float32)]
+INFO:root:{'label': 'hotdog', 'weights': {'cat': '5.16003e-07', 'dog': '8.80407e-07', 'hotdog': '0.999999'}}
+INFO:root:classify/uploads/fluffy_icon_YlMwmYL.jpg
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.99999881,  0.00000001,  0.00000121], dtype=float32)]
+INFO:root:{'label': 'cat', 'weights': {'cat': '0.999999', 'dog': '5.88431e-09', 'hotdog': '1.2132e-06'}}
+INFO:root:classify/uploads/golden_icon_qvo3kcM.jpg
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.0000777 ,  0.99991691,  0.00000542], dtype=float32)]
+INFO:root:{'label': 'dog', 'weights': {'cat': '7.76991e-05', 'dog': '0.999917', 'hotdog': '5.41698e-06'}}
+INFO:root:classify/uploads/hotdog.jpg
+INFO:tensorflow:Restoring parameters from /home/dan/Documents/python/dogsvscatsvshotdogs-0.001-2conv-basic.model
+INFO:root:model loaded
+INFO:root:[array([ 0.00000052,  0.00000088,  0.99999857], dtype=float32)]
+INFO:root:{'label': 'hotdog', 'weights': {'cat': '5.16003e-07', 'dog': '8.80407e-07', 'hotdog': '0.999999'}}

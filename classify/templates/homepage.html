@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block javascript %}
+{% endblock %}
+{% block content %}
+
+
+
+<div class="">
+   <div>
+      <h2 class="text-center">Which one is it?</h2>
+   </div>
+   <div class="form-group">
+      <form id="upload-image" enctype="multipart/form-data">
+         {% csrf_token %} 
+         <label>Upload Image</label>
+         <div class="input-group">
+            <span class="input-group-btn">
+            <span class="btn btn-default btn-file">
+            Browse… <input type="file" name="predict" id="imgInp">
+            <input type="text" name="test" value="hi" hidden="true">
+            </span>
+            </span>
+            <input type="text" class="form-control" readonly>
+         </div>
+         <div class="well">
+            <img class="center-block" id='img-upload'/>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+      </form>
+      </div>
+   </div>
+   <div class="result-area">
+
+      <div class="row fluid">
+         <div class="cat text-center col-lg-4">
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <p id="cat"></p>
+               </div>
+               <div class="panel-body">
+                  <img class="img-circle" src="{% static "images/fluffy_icon.jpg" %}" alt="Cat image" width="140" height="140">
+                  <h2>Cat</h2>
+                  <p>Cat.</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="dog text-center col-lg-4">
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <p id="dog"></p>
+               </div>
+               <div class="panel-body">
+	               <img class="img-circle" src="{% static "images/doggo_icon.jpg" %}" alt="Dog image" width="140" height="140">
+	               <h2>Dog</h2>
+	               <p>G O O D B O Y E.</p>
+               </div>
+            </div>
+         </div>
+
+	      <div class="hotdog text-center col-lg-4">
+	         <div class="panel panel-default">
+	            <div class="panel-heading">
+	               <p id="hotdog"></p>
+	            </div>
+	            <div class="panel-body">
+		            <img class="img-circle" src="{% static "images/hotdog_icon.jpg" %}" alt="Hotdog image" width="140" height="140">
+		            <h2>HotDog</h2>
+		            <p>Mhh...</p>
+	            </div>
+	         </div>
+	      </div>
+      </div>
+
+
+   <!-- /.row -->
+</div>
+
+
+{% endblock %}
