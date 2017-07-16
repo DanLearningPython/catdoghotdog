@@ -35,6 +35,9 @@ $(document).ready( function() {
 			$(".panel").attr('class','panel panel-default');
 			$("#message").empty();
 			$('#loading').show();
+			$("#progress").css('width', '100%');
+			$("#progress").addClass("active");
+			$("#progress").html("Uploading...");
 			$.ajax({
 				url: "/predict", // Url to which the request is send
 				type: "POST",             // Type of request to be send, called as method
@@ -46,6 +49,8 @@ $(document).ready( function() {
 				success: function(data)   // A function to be called if request succeeds
 				{
 					$('#loading').hide();
+					$("#progress").removeClass("active");
+					$("#progress").html("Finished!");
 					$("."+data.label+" .panel-default").attr('class','panel panel-success');
 					$("#dog").html(data.weights.dog);
 					$("#cat").html(data.weights.cat);
