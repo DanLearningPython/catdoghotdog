@@ -61,7 +61,7 @@ $(document).ready( function() {
 	});	
 	$("#imgInp").change(function(){
 	      var file = $(this).val();
-	      var exts = ['jpg'];//extensions
+	      var exts = ['jpg','jpeg'];//extensions
 	      //the file has any value?
 	      if ( file ) {
 		// split file name at dot
