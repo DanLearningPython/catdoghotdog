@@ -1,3 +1,4 @@
+from settings_secret import *
 """
 Django settings for catvdogvhotdog project.
 
@@ -18,16 +19,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '+lo6(so@q$)0_^0u3u-3-_4$1u6j&boj(&1t(zj*8(^mbbqeo4'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = ["192.168.26.152","danielmo.com"]
-
-
 # Application definition
 
 INSTALLED_APPS = [
