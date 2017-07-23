@@ -1,4 +1,4 @@
-from settings_secret import *
+from .settings_secret import *
 """
 Django settings for catvdogvhotdog project.
 
