@@ -3,3 +3,4 @@ catdoghotdog_env/
 */__pycache__/
 __pycache__/
 general.log
+catvdogvhotdog/settings_secret.py
