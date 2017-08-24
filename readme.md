@@ -1,4 +1,4 @@
-Cat, Dog, or HotDog?
+## Cat, Dog, or HotDog?
 
 Model: v1.2 - 07/17/2017
 
@@ -17,3 +17,5 @@ pip install django
 pip install opencv-python
 
 ```
+demo:
+http://danielmo.com:8888/
