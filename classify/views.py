@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, JsonResponse
 from django.template.loader import render_to_string
 from django.core.files.storage import FileSystemStorage
+from django.views.decorators.csrf import csrf_exempt
 from .predict import CatDogHotDog
 import cv2
 import numpy as np    
@@ -11,6 +12,7 @@ import json
 def index(request):
 	return render(request, 'homepage.html', {'data': '','page_name' :'Home'})
 
+@csrf_exempt
 def predict(request):
 
 	results = None
